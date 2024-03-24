@@ -1,4 +1,6 @@
 export default function createEmployeesObject(departmentName, employees) {
-  let result = Object.assign({},{[departmentName]: employees});
+  const result = {
+    [departmentName]: employees
+  };
   return result;
 }
