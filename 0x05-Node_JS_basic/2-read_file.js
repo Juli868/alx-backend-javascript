@@ -9,7 +9,7 @@ module.exports = function countStudents(file) {
       length += 1;
       items.push(line.split(','));
     }
-    process.stdout.write(`${lenght}`);
+    process.stdout.write(`${lenght}~`);
   } catch (err) {
     throw new Error("Cannot load the database");
   }
